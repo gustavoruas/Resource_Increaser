@@ -1,0 +1,19 @@
+<config>
+
+   <!-- <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">20000</set> -->
+   
+   <!-- <set xpath="/progression"> -->
+      <!-- <level max_level="300" exp_to_level="13000" experience_multiplier="1.0275" skill_points_per_level="2" clamp_exp_cost_at_level="75"> -->
+	   
+	   <!-- <set xpath="/progression/level[@skill_points_per_level]/@value">2</set> -->
+	   
+	   <append xpath="/progression/level">
+			<level max_level="300" exp_to_level="5000" experience_multiplier="1.0525" skill_points_per_level="2" clamp_exp_cost_at_level="75" />  
+	   </append>
+	   
+	   <set xpath="/progression/level/level_table/level[@skill_points]/@value">2</set>
+   
+   <!-- </set> -->
+   
+
+</config>

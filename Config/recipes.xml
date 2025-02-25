@@ -1,0 +1,91 @@
+<config>
+     
+	 <!-- if attribute in tag does not exist -->
+     <set xpath="/recipes/recipe[@name='resourceConcreteMix']" craft_time="1"/>
+     
+	 <set xpath="/recipes/recipe[@name='resourceCement']/@craft_time" >1</set>
+	 <set xpath="/recipes/recipe[@name='resourceCement']/ingredient[@name='resourceRockSmall']/@count">1</set>
+	 
+	 <set xpath="/recipes/recipe[@name='resourceForgedIron']/@craft_time" >1</set>
+	 <set xpath="/recipes/recipe[@name='resourceForgedIron']/ingredient[@name='resourceScrapIron']/@count">5</set>
+     <set xpath="/recipes/recipe[@name='resourceForgedIron']/ingredient[@name='resourceClayLump']/@count">1</set>
+
+	 <set xpath="/recipes/recipe[@name='resourceForgedSteel']/@craft_time" >1</set>
+	 <set xpath="/recipes/recipe[@name='resourceForgedSteel']/ingredient[@name='resourceScrapIron']/@count">10</set>
+     <set xpath="/recipes/recipe[@name='resourceForgedSteel']/ingredient[@name='resourceClayLump']/@count">1</set>	 
+	 
+	 <set xpath="/recipes/recipe[@name='resourceBulletCasing']/@craft_time" >2</set>
+	 <set xpath="/recipes/recipe[@name='resourceBulletCasing']/ingredient[@name='resourceScrapBrass']/@count">1</set>
+     <set xpath="/recipes/recipe[@name='resourceBulletCasing']/ingredient[@name='resourceClayLump']/@count">1</set>	 	 
+	 
+	 <set xpath="/recipes/recipe[@name='resourceBulletTip']/@craft_time" >2</set>
+	 <set xpath="/recipes/recipe[@name='resourceBulletTip']/ingredient[@name='resourceScrapLead']/@count">1</set>
+     <set xpath="/recipes/recipe[@name='resourceBulletTip']/ingredient[@name='resourceClayLump']/@count">1</set>	 	 
+	 	 
+	 <set xpath="/recipes/recipe[@name='resourceBulletCasingSteel']/@craft_time" >2</set>
+	 <set xpath="/recipes/recipe[@name='resourceBulletCasingSteel']/ingredient[@name='resourceScrapIron']/@count">1</set>
+     <set xpath="/recipes/recipe[@name='resourceBulletCasingSteel']/ingredient[@name='resourceClayLump']/@count">1</set>	 	 
+	 	 	 
+	<append xpath="/recipes">
+		 
+	<!-- 
+		<recipe name="resourceCement" count="1" material_based="true" craft_area="forge" craft_time="1" tags="forgeCrafting">
+			<ingredient name="resourceRockSmall" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceForgedIron" count="1" material_based="true" craft_area="forge" craft_tool="toolAnvil" craft_time="2" tags="forgeCrafting">
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>
+
+		<recipe name="resourceForgedSteel" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="2" tags="learnable,forgeCrafting">
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>	
+
+		<recipe name="resourceBulletCasing" count="1" material_based="true" craft_area="forge" craft_tool="toolAndDieSet" craft_time="10" tags="forgeCrafting">
+			<ingredient name="resourceScrapBrass" count="1"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>
+
+		<recipe name="resourceBulletTip" count="1" material_based="true" craft_area="forge" craft_tool="toolAndDieSet" craft_time="7" tags="forgeCrafting">
+			<ingredient name="resourceScrapLead" count="1"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>	
+	
+		<recipe name="resourceBulletCasingSteel" count="1" craft_area="advforge" craft_tool="toolForgeCrucible" craft_time="5" material_based="true" tags="forgeCrafting">
+			<ingredient name="resourceScrapIron" count="2"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceBulletCasing" count="1" material_based="true" craft_area="advforge" craft_tool="toolAndDieSet" craft_time="1" tags="forgeCrafting">
+			<ingredient name="resourceScrapBrass" count="1"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>
+
+		<recipe name="resourceBulletTip" count="1" material_based="true" craft_area="advforge" craft_tool="toolAndDieSet" craft_time="1" tags="forgeCrafting">
+			<ingredient name="resourceScrapLead" count="1"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>	
+				
+	-->	
+		<recipe name="resourcePotassiumNitratePowder" count="200" craft_time="40" craft_area="chemistryStation" craft_exp_gain="22">
+			<ingredient name="resourceRockSmall" count="150"/>
+			<ingredient name="resourceCrushedSand" count="50"/>
+			<ingredient name="resourceScrapIron" count="50"/>
+		</recipe>		
+		
+		<recipe name="resourceCoal" count="50" craft_time="20" craft_area="campfire" craft_exp_gain="22">
+			<ingredient name="resourceWood" count="150"/>
+		</recipe>	
+
+		<recipe name="thrownAmmoMolotovCocktail" count="1">
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceGunPowder" count="10"/>
+			<ingredient name="ammoGasCan" count="10"/>
+		</recipe>	
+	
+
+  </append>
+</config>
+	

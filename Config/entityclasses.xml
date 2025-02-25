@@ -1,0 +1,5 @@
+<modded>
+		
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'player')]/effect_group/passive_effect[@name='HarvestCount']/@value">3</set>
+	
+</modded>	

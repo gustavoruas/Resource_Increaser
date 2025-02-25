@@ -1,0 +1,37 @@
+<config>
+<!-- XPATH reference description https://7daystodie.fandom.com/wiki/XPath_Explained
+	
+	-->
+	
+	<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">50000</set>
+	 
+	<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">500</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">5000</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'drinkJar')]/property[@name='Stacknumber']/@value">500</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">500</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">500</set>
+		
+	<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">500</set>
+	
+	
+	<!-- for Darkness falls Items -->	
+	<set xpath="/items/item[starts-with(@name, 'DFammo')]/property[@name='Stacknumber']/@value">5000</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'DFresource')]/property[@name='Stacknumber']/@value">50000</set>	
+	
+	<set xpath="/items/item[starts-with(@name, 'DFfood')]/property[@name='Stacknumber']/@value">500</set>
+		
+	<set xpath="/items/item[starts-with(@name, 'DFdrink')]/property[@name='Stacknumber']/@value">500</set>	
+	
+	<!-- for Darkness falls distinct non generic names -->	
+	<set xpath="/items/item[starts-with(@name, 'DF762')]/property[@name='Stacknumber']/@value">5000</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'DF44')]/property[@name='Stacknumber']/@value">5000</set>
+	
+	
+	
+</config>

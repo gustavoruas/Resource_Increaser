@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+   <Name value="Resource_Increaser" />
+   <DisplayName value="Resource Increaser" />
+   <Description value="Increase resource stackables, gathering by tool/hand, 2 skillpoints per level, a few more receipts for less grinding" />
+   <Author value="Currador" />
+   <Version value="2.0.0" />   
+
+</xml>
